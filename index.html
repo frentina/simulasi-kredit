@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulasi Kredit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Simulasi Kredit</h2>
+      <form id="kreditForm">
+        <label>Pinjaman Awal (Rp):</label>
+        <input type="number" id="pinjamanAwal" required />
+
+        <label>Bunga Lama (%):</label>
+        <input type="number" id="bungaLama" required />
+
+        <label>Bunga Baru (%):</label>
+        <input type="number" id="bungaBaru" required />
+
+        <label>Sisa Tenor (Bulan):</label>
+        <input type="number" id="tenor" required />
+
+        <button type="submit">Hitung</button>
+      </form>
+
+      <div id="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
